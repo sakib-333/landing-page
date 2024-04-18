@@ -8,6 +8,10 @@ body {
   display: flex;
 }
 
+.h-center {
+  align-items: center;
+}
+
 .nav-bar-section-1 {
   position: relative;
   padding: 1rem 2rem;
@@ -251,48 +255,32 @@ body {
 
 /* Section-7 */
 .section-7 {
-  padding: 1rem 2rem;
-}
-.sec-7-text {
+  background-color: rgb(243, 245, 250);
   flex-direction: column;
   align-items: center;
 }
-.sec-7-text-p {
+
+.sec-7-p {
+  padding: 1rem 2rem;
   text-align: center;
 }
-
-.sec-7-cards {
-  gap: 2rem;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+.sec-7-faq {
+  margin: 1rem 0;
+  background-color: #fff;
+  padding: 1rem 2rem;
 }
 
-.sec-7-card {
-  padding: 1rem;
-  box-sizing: border-box;
-  width: 35rem;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #f3f5fa;
-  border-radius: 8px;
-}
-.sec-7-card-text {
-  width: 45%;
-}
-.sec-7-card-img {
-  width: 10rem;
-  height: 10rem;
-}
-.sec-7-card-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  border-radius: 100%;
+.sec-7-p-hide {
+  margin: 0;
+  padding: 0;
 }
 
-.sec-7-card-text-icons {
-  justify-content: space-between;
+.show-me {
+  display: block;
+}
+
+.hide-me {
+  display: none;
 }
 
 /* Footer */
