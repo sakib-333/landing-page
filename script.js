@@ -31,8 +31,8 @@ for (let i = 0; i < sec_7_faq.length; i++) {
       sec_7_p_hide[i].classList.remove("hide-me");
       sec_7_p_hide[i].classList.add("show-me");
     } else {
-      chevronBtn[i].classList.remove("fa-chevron-up");
-      chevronBtn[i].classList.add("fa-chevron-down");
+      chevronBtn[i + 3].classList.remove("fa-chevron-up");
+      chevronBtn[i + 3].classList.add("fa-chevron-down");
       sec_7_p_hide[i].classList.remove("show-me");
       sec_7_p_hide[i].classList.add("hide-me");
     }
